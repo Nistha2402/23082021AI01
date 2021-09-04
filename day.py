@@ -3,25 +3,7 @@ Type "help", "copyright", "credits" or "license()" for more information.
 >>> s="this is very nice"
 >>> s.split(" ")
 ['this', 'is', 'very', 'nice']
->>> (",".join(s.split(" ")))
-'this,is,very,nice'
->>> (" ".join(s.split(" ")))
-'this is very nice'
->>> q=[]
->>> for i in range(0,4):
-	s.split(" ")[i][::-1]
-
-	
-'siht'
-'si'
-'yrev'
-'ecin'
->>> for i in range(0,4):
-	q+=s.split(" ")[i][::-1]
-
-	
->>> q
-['s', 'i', 'h', 't', 's', 'i', 'y', 'r', 'e', 'v', 'e', 'c', 'i', 'n']
+>>> q=[]	
 >>> for i in range(0,4):
 	q[i]=s.split(" ")[i][::-1]
 
